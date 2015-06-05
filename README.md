@@ -29,3 +29,6 @@ Example 2: Using the SSL CDN
 ```
 
 There are two named script definitions because there's no single CDN url for both SSL and non-SSL at the moment.
+
+## Kendo Versions
+If you need a version that's not available on NuGet, create an issue and I'll release the version.
