@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ScriptManager.Kendo", "source\Microsoft.ScriptManager.Kendo\Microsoft.ScriptManager.Kendo.csproj", "{147FAE2D-3660-42B0-A973-C2DD92246213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Web", "source\Sample.Web\Sample.Web.csproj", "{0C6B62C0-8717-4FD7-BE5D-9A5E0FAE4E7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7CEDFB2B-2A26-4A8C-908A-3F3B2CF651DF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{147FAE2D-3660-42B0-A973-C2DD92246213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147FAE2D-3660-42B0-A973-C2DD92246213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147FAE2D-3660-42B0-A973-C2DD92246213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147FAE2D-3660-42B0-A973-C2DD92246213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6B62C0-8717-4FD7-BE5D-9A5E0FAE4E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6B62C0-8717-4FD7-BE5D-9A5E0FAE4E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6B62C0-8717-4FD7-BE5D-9A5E0FAE4E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6B62C0-8717-4FD7-BE5D-9A5E0FAE4E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
