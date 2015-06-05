@@ -28,13 +28,13 @@
 //
 #endregion
 
-[assembly: System.Web.PreApplicationStartMethod(typeof(Microsoft.ScriptManager.Kendo.PreApplicationStartCode), "Start")]
+[assembly: System.Web.PreApplicationStartMethod(typeof(AspNet.ScriptManager.Kendo.PreApplicationStartCode), "Start")]
 
-namespace Microsoft.ScriptManager.Kendo
+namespace AspNet.ScriptManager.Kendo
 {
     #region Imports
     using System.ComponentModel;
-    using ui = System.Web.UI;
+    using System.Web.UI;
     using System.Diagnostics;
     using System.Linq;
     #endregion
@@ -56,9 +56,9 @@ namespace Microsoft.ScriptManager.Kendo
             // used as a URL segment for the CDN script url or file script path.
             if (version.Count(x => x == '.') == 3 && version.EndsWith(value: ".0")) { version = version.Remove(version.IndexOf(value: ".0")); }
 
-            ui.ScriptResourceMapping scriptResourceMapping = ui.ScriptManager.ScriptResourceMapping;
+            ScriptResourceMapping scriptResourceMapping = ScriptManager.ScriptResourceMapping;
 
-            ui.ScriptResourceDefinition kendoWebDefinition = new ui.ScriptResourceDefinition()
+            ScriptResourceDefinition kendoWebDefinition = new ScriptResourceDefinition()
             {
                 Path = string.Concat(str0: "~/Scripts/kendo/", str1: version, str2: "/kendo.web.min.js"),
                 DebugPath = string.Concat(str0: "~/Scripts/kendo/", str1: version, str2: "/kendo.web.min.js"),
@@ -70,7 +70,7 @@ namespace Microsoft.ScriptManager.Kendo
             scriptResourceMapping.AddDefinition(name: "kendo-web", definition: kendoWebDefinition);
 
             // The SSL CDN has a different URL, use it here.
-            ui.ScriptResourceDefinition kendoWebSecureDefinition = new ui.ScriptResourceDefinition()
+            ScriptResourceDefinition kendoWebSecureDefinition = new ScriptResourceDefinition()
             {
                 Path = string.Concat(str0: "~/Scripts/kendo/", str1: version, str2: "/kendo.web.min.js"),
                 DebugPath = string.Concat(str0: "~/Scripts/kendo/", str1: version, str2: "/kendo.web.min.js"),

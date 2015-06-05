@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ScriptManager.Kendo", "source\Microsoft.ScriptManager.Kendo\Microsoft.ScriptManager.Kendo.csproj", "{147FAE2D-3660-42B0-A973-C2DD92246213}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.ScriptManager.Kendo", "source\Microsoft.ScriptManager.Kendo\AspNet.ScriptManager.Kendo.csproj", "{147FAE2D-3660-42B0-A973-C2DD92246213}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Web", "source\Sample.Web\Sample.Web.csproj", "{0C6B62C0-8717-4FD7-BE5D-9A5E0FAE4E7A}"
 EndProject

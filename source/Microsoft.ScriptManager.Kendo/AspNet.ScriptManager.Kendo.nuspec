@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://raw.githubusercontent.com/kfrancis/microsoft-scriptmanager-kendo/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/kfrancis/microsoft-scriptmanager-kendo</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/kfrancis/aspnet-scriptmanager-kendo/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/kfrancis/aspnet-scriptmanager-kendo</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2015</copyright>

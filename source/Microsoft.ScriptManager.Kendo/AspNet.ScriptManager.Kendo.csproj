@@ -7,8 +7,8 @@
     <ProjectGuid>{147FAE2D-3660-42B0-A973-C2DD92246213}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Microsoft.ScriptManager.Kendo</RootNamespace>
-    <AssemblyName>Microsoft.ScriptManager.Kendo</AssemblyName>
+    <RootNamespace>AspNet.ScriptManager.Kendo</RootNamespace>
+    <AssemblyName>AspNet.ScriptManager.Kendo</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -46,7 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Microsoft.ScriptManager.Kendo.nuspec" />
+    <None Include="AspNet.ScriptManager.Kendo.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
