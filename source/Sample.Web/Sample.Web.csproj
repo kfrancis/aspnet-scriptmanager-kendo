@@ -48,6 +48,10 @@
       <HintPath>..\..\packages\Microsoft.ScriptManager.jQuery.1.7.2.1\lib\net40\Microsoft.ScriptManager.jQuery.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.ScriptManager.Kendo, Version=2014.1.528.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.ScriptManager.Kendo.2014.1.528.0\lib\net452\Microsoft.ScriptManager.Kendo.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -95,12 +99,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Microsoft.ScriptManager.Kendo\Microsoft.ScriptManager.Kendo.csproj">
-      <Project>{147fae2d-3660-42b0-a973-c2dd92246213}</Project>
-      <Name>Microsoft.ScriptManager.Kendo</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
