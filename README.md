@@ -1,6 +1,6 @@
-# microsoft-scriptmanager-kendo
+# aspnet-scriptmanager-kendo
 
-Quick ScriptManager libary which adds a named script reference definition for easy use (rather than specifying the version number in every single script reference).
+Quick asp.net:ScriptManager extension libary which adds a named script reference definition for easy use (rather than specifying the version number in every single script reference).
 
 To use:
 
